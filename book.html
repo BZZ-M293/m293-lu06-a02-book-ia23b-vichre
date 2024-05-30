@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang='de'>
 <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
     <title>LU06.A02 - Buch</title>
 </head>
 <body>
-    <form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+    <form action='https://it.bzz.ch/demo/formdata/index.php' method='post'>
         <!-- Buchtitel -->
-        <label for="buchtitel">Buchtitel (20-30 Zeichen):</label>
-        <input type="text" id="buchtitel" name="buchtitel" required minlength="20" maxlength="30"><br>
+        <label for='buchtitel'>Buchtitel (20-30 Zeichen):</label>
+        <input type='text' id='buchtitel' name='buchtitel' required minlength='20' maxlength='30'><br>
 
         <!-- Autoren -->
-        <label for="autoren">Autoren (5-40 Zeichen):</label>
-        <input type="text" id="autoren" name="autoren" required minlength="5" maxlength="40"><br>
+        <label for='autoren'>Autoren (5-40 Zeichen):</label>
+        <input type='text' id='autoren' name='autoren' required minlength='5' maxlength='40'><br>
 
         <!-- Preis -->
-        <label for="preis">Preis (0.05 - 99.95):</label>
-        <input type="number" id="preis" name="preis" required min="0.05" max="99.95" step="0.01"><br>
+        <label for='preis'>Preis (0.05 - 99.95):</label>
+        <input type='number' id='preis' name='preis' required min='0.05' max='99.95' step='0.01'><br>
 
         <!-- Erscheinungsdatum -->
-        <label for="erscheinungsdatum">Erscheinungsdatum (tt.mm.jjjj):</label>
-        <input type="date" id="erscheinungsdatum" name="erscheinungsdatum" required pattern="\d{2}\.\d{2}\.\d{4}"><br>
+        <label for='erscheinungsdatum'>Erscheinungsdatum (tt.mm.jjjj):</label>
+        <input type='date' id='erscheinungsdatum' name='erscheinungsdatum' required pattern='\d{2}\.\d{2}\.\d{4}'><br>
 
         <!-- Auflage -->
-        <label for="auflage">Auflage (1-9):</label>
-        <input type="number" id="auflage" name="auflage" required min="1" max="9"><br>
+        <label for='auflage'>Auflage (1-9):</label>
+        <input type='number' id='auflage' name='auflage' required min='1' max='9'><br>
 
         <!-- Submit and Reset Buttons -->
-        <input type="submit" value="Absenden">
-        <input type="reset" value="Zurücksetzen">
+        <input type='submit' value='Absenden'>
+        <input type='reset' value='Zurücksetzen'>
     </form>
 </body>
 </html>
